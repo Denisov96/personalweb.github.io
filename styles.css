@@ -15,9 +15,11 @@ h1 {
   margin: 0;
   font-size: 3rem;
 }
+
 h2 {
   color: rgb(244, 6, 6);
 }
+
 article {
   padding: 5px;
   margin: 10px;
@@ -95,6 +97,7 @@ nav li {
   padding-bottom: 18px;
   color: white;
 }
+
 .body {
   background: rgb(0, 0, 0);
   max-width: 1000px;
@@ -104,14 +107,17 @@ nav li {
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
 }
+
 .flex-container{
   display:flex;
   row-gap: 20px
 }
+
 .container{
   display:flex;
   
 }
+
 .img1{
   display:inline;
   width: 750px;
@@ -120,6 +126,7 @@ nav li {
   flex-wrap: wrap;
   padding-top: 60px
 }
+
 .text1{
   display: inline;
   flex-wrap: wrap;
@@ -127,6 +134,7 @@ nav li {
   justify-content: flex-end;
   width: 300px;
 }
+
 .tex{
   font-size: 22px;
   color: white; 
@@ -134,19 +142,23 @@ nav li {
   padding: 5px 10px 5px 5px;
   padding-top: 200px;
 }
+
 .hob {
  color: red; 
  text-align: center;
  font-size: 2rem
 }
+
 .Cont {
   display: flex;
   align-items: center;
 }
+
 button {
   margin-right: 10px;
   font-size: 20px;
 }
+
 .buttons {
   display: flex;
   flex-direction: column;
