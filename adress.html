@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <script>
+    function saveInformation() {
+      let fullName = document.getElementById("Name").value;
+      let number = document.getElementById("Number").value;
+      let email = document.getElementById("email").value;
+      let personalInfo =
+        "<br>Name: " +
+        fullName +
+        " <br>Number: " +
+        number +
+        " <br>Email: " +
+        email;
+      document.getElementById("personalInfo").innerHTML = personalInfo;
+    }
+  </script>
+  <body>
+    <h1>Address Book</h1>
+    <div class="form">
+      <div class="input-container">
+        <label for="Full Name" class="label">Input your full name:</label>
+        <input id="Name" placeholder="Input your full name" type="words" />
+      </div>
+      <div class="input-container">
+        <label for="Number" class="label">Input your number:</label>
+        <input id="Number" placeholder="Input your number" type="number" />
+      </div>
+      <div class="input-container">
+        <label for="email" class="label">Input your email:</label>
+        <input id="email" placeholder="Input your email" type="email" />
+      </div>
+      <button onclick="saveInformation()">Save information</button>
+      <p>Personal information: <span id="personalInfo"></span></p>
+    </div>
+  </body>
+</html>
